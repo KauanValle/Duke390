@@ -19,6 +19,7 @@ body{
     justify-content: space-between;
 }
 #listaHeader li{
+    font-size: 16px;
     list-style: none;
     float: left;
     
@@ -34,7 +35,7 @@ a{
     text-decoration: none;
     /* color: #F65511; */
     color: white;
-    font-size: 22px;
+    font-size: 20px;
     padding: 0px 10px;
     font-weight: 300;
 }
@@ -78,7 +79,7 @@ a:hover{
 }
 .duke390-img{
     margin: 20px 0px;
-    width: 50%;
+    width: 40vw;
     /* border: 1px solid red; */
 }
 #listaSection{
