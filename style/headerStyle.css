@@ -11,7 +11,7 @@ body{
 /* --------------------- HEADER ----------------------- */
 
 .container-header{
-    width: 1600px;
+    width: 90%;
     display: flex;
     margin: 0 auto;
     padding: 20px 0px;
@@ -67,7 +67,7 @@ a:hover{
 .container{
     /* display: flex; */
     /* border: 1px solid red; */
-    width: 1600px;
+    width: 90%;
     margin: 0 auto;
     /* justify-content: center; */
     padding: 20px 0px;
@@ -82,10 +82,11 @@ a:hover{
     /* border: 1px solid red; */
 }
 #listaSection{
+    /* border: 1px solid green; */
+    width: 100%;
     display: flex;
     color: white;
     justify-content: center;
-    /* border: 1px solid green; */
 }
 #listaSection li{
     /* border: 1px solid green; */
