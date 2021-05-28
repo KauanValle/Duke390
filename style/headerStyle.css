@@ -56,6 +56,9 @@ a:hover{
 .icons-img{
     align-self: center;
 }
+.menu-icon{
+    display: none;
+}
 .size-img{
     /* color: white; */
     cursor: pointer;
@@ -66,33 +69,39 @@ a:hover{
 /* ---------------------- SECTION -------------------------- */
 
 .container{
-    /* display: flex; */
+    display: flex;
+    align-self: center;
+    justify-content: center;
     /* border: 1px solid red; */
     width: 90%;
+    height: 80vh;
     margin: 0 auto;
     /* justify-content: center; */
-    padding: 20px 0px;
 }
 .container1{
+    align-items: center;
     display:flex;
-    justify-content: center;
+    /* border: 1px solid green; */
 }
 .duke390-img{
+    display: flex;
     margin: 20px 0px;
-    width: 40vw;
+    width: 100%;
     /* border: 1px solid red; */
 }
 #listaSection{
-    /* border: 1px solid green; */
-    width: 100%;
-    display: flex;
+    display: inline-flex;
+    /* border: 1px solid yellow; */
+    position: absolute;
+    bottom: 0;
     color: white;
-    justify-content: center;
 }
 #listaSection li{
     /* border: 1px solid green; */
+    padding: 0px 30px;
     display: flex;
-    font-size: 30px;
+    justify-content: space-between;
+    font-size: 25px;
     list-style: none;
 }
 .subtipo{
@@ -103,5 +112,21 @@ a:hover{
     justify-content: center;
 }
 .bar{
-    margin: 70px 100px;
+    /* border: 1px solid royalblue; */
+}
+@media (max-width: 939px){
+    .icons-img{
+        display: none;
+    }
+    .listNav{
+        display: none;
+    }
+    .menu-icon{
+        display: flex;
+        justify-content: center;
+        /* width: 20px; */
+    }
+    .menu-icon1{
+        width: 50px;
+    }
 }
