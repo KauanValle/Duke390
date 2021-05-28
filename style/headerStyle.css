@@ -15,14 +15,12 @@ body{
     display: flex;
     margin: 0 auto;
     padding: 20px 0px;
-    /* border: 1px solid red; */
     justify-content: space-between;
 }
 #listaHeader li{
     font-size: 16px;
     list-style: none;
     float: left;
-    
 }
 .title{
     color: white;
@@ -31,20 +29,16 @@ body{
     color: #F65511;
     font-weight: bold;
 }
-a{
+.link-menu{
     text-decoration: none;
-    /* color: #F65511; */
     color: white;
     font-size: 20px;
     padding: 0px 10px;
     font-weight: 300;
 }
-a:hover{
+.link-menu:hover{
     color: #fa7f4a;
     transition: 600ms;
-}
-.listNav{
-    align-self: center;
 }
 .logo{
     display: flex;
@@ -53,17 +47,16 @@ a:hover{
 .helmet{
     margin-right: 10px;
 }
-.icons-img{
+.icons-img, .listNav{
     align-self: center;
 }
-.menu-icon{
-    display: none;
-}
 .size-img{
-    /* color: white; */
     cursor: pointer;
     margin: 0px 5px;
     width: 30px;
+}
+.menu-icon{
+    display: none;
 }
 
 /* ---------------------- SECTION -------------------------- */
@@ -72,33 +65,27 @@ a:hover{
     display: flex;
     align-self: center;
     justify-content: center;
-    /* border: 1px solid red; */
     width: 90%;
     height: 80vh;
     margin: 0 auto;
-    /* justify-content: center; */
 }
 .container1{
     align-items: center;
     display:flex;
-    /* border: 1px solid green; */
 }
 .duke390-img{
     display: flex;
     margin: 20px 0px;
     width: 100%;
-    /* border: 1px solid red; */
 }
 #listaSection{
     display: inline-flex;
-    /* border: 1px solid yellow; */
     position: absolute;
     bottom: 0;
     color: white;
     padding-bottom: 20px;
 }
 #listaSection li{
-    /* border: 1px solid green; */
     padding: 0px 30px;
     display: flex;
     justify-content: space-between;
@@ -109,18 +96,16 @@ a:hover{
     justify-content: center;
     color: rgb(90, 90, 90);
 }
+
+/* ---------------------- RESPONSIVO(CELULAR) -------------------------- */
+
 @media (max-width: 1000px){
-    .icons-img{
-        display: none;
-    }
-    .listNav{
+    .listNav, .icons-img{
         display: none;
     }
     .menu-icon{
         display: flex;
         justify-content: center;
-        /* width: 0px; */
-
     }
     .menu-icon1{
         width: 50px;
