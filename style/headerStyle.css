@@ -11,7 +11,6 @@ body{
 /* --------------------- HEADER ----------------------- */
 
 .container-header{
-    /* border: 1px solid yellow; */
     width: 100%;
     display: flex;
     margin: 0 auto;
@@ -47,18 +46,15 @@ body{
 .logo{
     display: flex;
     align-items: center;
-    /* border: 1px solid red; */
 }
 .helmet{
     margin-right: 10px;
 }
 .listNav{
     margin: 0px 190px;
-    /* border: 1px solid red; */
     align-self: center;
 }
 .icons-img{
-    /* border: 1px solid red; */
     display: flex;
     
     align-self: center;
@@ -75,7 +71,6 @@ body{
 /* ---------------------- SECTION -------------------------- */
 
 .container{
-    /* border: 1px solid yellow; */
     display: flex;
     align-self: center;
     justify-content: center;
@@ -84,13 +79,11 @@ body{
     margin: 0 auto;
 }
 .container1{
-    /* border: 1px solid yellow; */
     align-items: center;
     display:flex;
 }
 .duke390-img{
     display: flex;
-    /* border: 1px solid yellow; */
     margin: 20px 0px;
     width: 100%;
 }
